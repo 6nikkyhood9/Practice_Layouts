@@ -2,59 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HW4</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 </head>
 <body>
-<header>
-    <a class="title" href="#">journey</a>
-    <div class="navigation">
-        <span class="nav-item">Welcome,</span>
-        <a class="nav-item-link" href="#">Log In</a>
-        <span>or</span>
-        <a class="nav-item-link" href="#">Sign Up</a>
-    </div>
-    <div class="icon-block">
-        <a href="#" class="icon icon-calculator"></a>
-        <a href="#" class="icon icon-files"></a>
-        <a href="#" class="icon icon-commpas"></a>
-    </div>
-</header>
-<div class="main-form">
-    <div class="container">
-        <div class="form-item-wrapper">
-            <span class="main-item">Sign Up</span>
-            <a class="form-item-link" href="#">Log In</a>
-        </div>
-        <div class="button-wrapper">
-            <a class="btn-social btn-facebook" href="#">
-                <i class="fab fa-facebook-f"></i>
-                <p class="text-facebook">Facebook</p>
-            </a>
-            <a class="btn-social btn-google" href="#">
-                <i class="fab fa-google-plus-g"></i>
-                <p class="text-google">Google</p>
-            </a>
-        </div>
-        <div class="form-decoration">or</div>
-        <form action="#">
-            <input  class="form-item" type="text" placeholder="First Name">
-            <input class="form-item" type="text" placeholder="Second Name">
-            <input class="form-item" type="text" placeholder="Email">
-            <input class="form-item" type="text" placeholder="Choose Password">
-            <input class="form-item" type="text" placeholder="Confirm Password">
-            <div class="lable-wrapper">
-                <label class="checkbox-wrapper">Agree our
-                    <a class="lable-link" href="#">Terms & Conditions</a>
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                </label>
+<div class="border">
+<table>
+    <tr>
+        <th class="pricing-plan" rowspan="2">
+            <span class="sml-pricing-item">choose your</span>
+            <span class="big-pricing-item">pricing plane</span>
+        </th>
+        <td class="green">
+            <p>STANDARD</p>
+        </td>
+        <td class="red">
+            <p>ULTIMATE</p>
+        </td>
+        <td class="blue">
+            <p>PREMIUM</p>
+        </td>
+    </tr>
+    <tr>
+        <td class="price">
+            <div class="price-now">
+                <span class="dollars">$17</span>
+                <span class="cents">.99</span>
+                <span class="duration">PER MONTH</span>
             </div>
-            <a class="main-button-link" href="#"><span class="main-btn-text">Create Account</span></a>
-        </form>
-    </div>
+        </td>
+        <td class="price-ult">
+            <span class="dollars">$37</span>
+            <span class="cents-ult">.99</span>
+            <span class="duration">PER MONTH</span>
+        </td>
+        <td class="price-premium">
+            <div class="price-now">
+                <span class="dollars">$97</span>
+                <span class="cents-premium">.99</span>
+                <span class="duration">PER MONTH</span>
+            </div>
+        </td>
+    </tr>
+    <tr class="storage">
+        <td class="storage-item-inform">
+            <i class="fas fa-archive"></i>
+            <span>STORAGE</span>
+        </td>
+        <td class="storage-item-inform">
+            <span>500 GB STORAGE</span>
+        </td>
+        <td class="storage-item-inform">
+            <span>1000 GB STORAGE</span>
+        </td>
+        <td class="storage-item-inform">
+            <span>2000 GB STORAGE</span>
+        </td>
+    </tr>
+    <tr class="bandwidth">
+        <td class="bandwidth-item-inform">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <span>BANDWIDTH</span>
+        </td>
+        <td class="bandwidth-item-inform" colspan="2">
+            <span>LIMITED</span>
+        </td>
+        <td  class="bandwidth-item-inform">
+            <span>UNLIMITED</span>
+        </td>
+    </tr>
+    <tr class="email">
+        <td class="email-item">
+            <i class="fas fa-envelope"></i>
+            <span>EMAIL</span>
+        </td>
+        <td class="email-item">
+            <span>25 EMAILS</span>
+        </td>
+        <td class="email-item">
+            <span>45 EMAILS</span>
+        </td>
+        <td class="email-item">
+            <span>65 EMAILS</span>
+        </td>
+    </tr>
+    <tr class="support">
+        <td>
+            <i class="far fa-life-ring"></i>
+            <span>SUPPORT</span>
+        </td>
+        <td class="support-item" colspan="3">
+            <span>24/7 SUPPORT</span></td>
+    </tr>
+    <tr class="products">
+        <td class="products-item">
+            <i class="fas fa-cube"></i>
+        <span>PRODUCTS</span>
+        </td>
+        <td class="products-item">
+            <span>20 PRODUCTS</span>
+        </td>
+        <td class="products-item">
+            <span>30 PRODUCTS</span>
+        </td>
+        <td class="products-item">
+            <span>60 PRODUCTS</span>
+        </td>
+    </tr>
+    <tr class="users">
+        <td>
+            <i class="fas fa-users"></i>
+            <span>USERS</span>
+        </td>
+        <td class="users-item">
+            <span>1 USER</span>
+        </td>
+        <td class="users-item">
+            <span>10 USERS</span>
+        </td>
+        <td class="users-item">
+            <span>15 USERS</span>
+        </td>
+    </tr>
+    <tr class="btn-wrapper">
+        <td>
+            <a class="btn-link-black" href="#">
+                <span class="btn-text">CONTACT US</span>
+            </a>
+        </td>
+        <td class="btn-item">
+            <a class="btn-link-green" href="#">
+                <span class="btn-text">BUY NOW</span>
+            </a>
+        </td>
+        <td class="btn-item">
+            <a class="btn-link-red" href="#">
+                <span class="btn-text">BUY NOW</span>
+            </a>
+        </td>
+        <td class="btn-item">
+            <a class="btn-link-blue" href="#">
+                <span class="btn-text">BUY NOW</span>
+            </a>
+        </td>
+    </tr>
+</table>
 </div>
 </body>
 </html>

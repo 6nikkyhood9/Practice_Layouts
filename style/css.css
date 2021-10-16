@@ -1,0 +1,240 @@
+body{
+    width: 100%;
+    font-family: 'Arimo', sans-serif;
+}
+table{
+    margin: 0 auto;
+    vertical-align: middle;
+    border: 20px #374765 solid;
+    border-collapse: unset;
+}
+tr,td{
+  padding: 15px 35px;
+    vertical-align: middle;
+}
+td{
+    box-shadow:-5px 0px 10px -2px rgba(0, 0, 0, 0.27);
+}
+.pricing-plan {
+    background-color: #fafafa;
+    vertical-align: middle;
+    font-weight: 700;
+}
+.price-now{
+    position: relative;
+}
+.dollars{
+    font-size: 60px;
+    font-weight: 700;
+}
+.cents{
+    position: absolute;
+    top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.price-ult{
+    position: relative;
+}
+.cents-ult{
+    position: absolute;
+    top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.price-premium{
+    position: relative;
+}
+.cents-premium{
+    position: absolute;
+    top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.sml-pricing-item{
+    font-size: 15px;
+    color:  #484848;
+    display:block;
+    text-transform: uppercase;
+}
+.big-pricing-item{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:  #484848;
+}
+.green{
+    background-color:  #89c331;
+    font-weight: 700;
+    width: 277px;
+    color:  #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+.red{
+    background-color:  #f04a56;
+    font-weight: 700;
+    width: 277px;
+    color:  #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+.blue{
+    background-color:  #20807c;
+    font-weight: 700;
+    width: 277px;
+    font-size: 30px;
+    text-align: center;
+    color:  #ffffff;
+}
+.storage{
+    color:  #484848;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center
+}
+i{
+    color:  #848484;
+    font-size: 24px;
+}
+.storage-item-inform{
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.bandwidth{
+    color:  #484848;
+    background-color:  #e3e3e3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center
+}
+.bandwidth-item-inform{
+    background-color:  #e3e3e3;
+    width: 277px;
+    height: 69px;
+   vertical-align: middle;
+    font-size: 20px;
+}
+.email{
+    color:  #484848;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center
+}
+.email-item{
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.support{
+    color:  #484848;
+    background-color:  #e3e3e3;
+    background-color:  #e3e3e3;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center;
+}
+.support-item{
+    background-color:  #e3e3e3;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.products{
+    color:  #484848;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center
+}
+.products-item{
+    background-color:  #f2f2f2;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.users{
+    background-color:  #e3e3e3;
+    color:  #484848;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center  ;
+}
+.users-item{
+    background-color:  #e3e3e3;
+    color:  #484848;
+    width: 310px;
+    height: 69px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.btn-wrapper{
+    text-align: center;
+    width: 310px;
+    height: 120px;
+    background-color:  #dddddd;
+}
+.btn-item{
+    background-color:#eeeeee;
+}
+.btn-text{
+    display: block;
+    margin: 15px auto;
+}
+.btn-link-black{
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    width: 192px;
+    height: 49px;
+    border-radius: 5px;
+    background-color:#484848;
+    color: white;
+    box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+}
+.btn-link-green{
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    width: 192px;
+    height: 49px;
+    border-radius: 5px;
+    background-color:  #89c331;
+    color: white;
+    box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+}
+.btn-link-red{
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    width: 192px;
+    height: 49px;
+    border-radius: 5px;
+    background-color:  #f04a56;
+    color: white;
+    box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+}
+.btn-link-blue{
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    width: 192px;
+    height: 49px;
+    border-radius: 5px;
+    background-color:  #20807c;
+    color: white;
+    box-shadow: 7px 4px 5px 0px rgba(0, 0, 0, 0.27);
+}
