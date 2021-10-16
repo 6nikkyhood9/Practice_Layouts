@@ -1,155 +1,121 @@
 body {
-    font-family: sans-serif;
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
 }
-
-.main-container {
-    width: 1280px;
-    margin: auto;
-}
-
-.main-item {
-    text-align: left;
-    color: #000;
-    margin-bottom: 20px;
-}
-
-.color-text {
-    color: #4bcaff;
-    font-size: 80px;
-    font-weight: 400;
-}
-
-.main-link {
-    text-decoration: none;
-    font-size: 80px;
-    font-weight: 400;
-}
-
-.top-menu {
-    background-color: #35444f;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.top-menu-item {
-    font-size: 24px;
-    font-weight: 400;
-    display: inline-block;
-}
-
-.top-menu-link {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 20px 30px;
-    display: inline-block;
-}
-
-.top-menu-link:hover {
-    background-color: #222f3a;
-    color: white;
-}
-
-.menu-content {
-    list-style: none;
-    width: 387px;
-    border: 1px solid black;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.menu-content-item {
-    display: block;
-    padding: 27px 25px;
-    font-size: 27px;
-    color: #485863;
-    ;
-}
-
-.menu-content-item:hover {
-    background-color: #dcdcdc;
-    padding-left: 37px;
-}
-
-.menu-content-link {
-    text-decoration: none;
-    color: #495863;
-}
-
 .clearfix:after {
-    content: "";
+    clear: both;
+    content: '';
     display: table;
+}
+.main-block{
+    font-family: sans-serif;
+    width: 1280px;
+    margin: 0 auto;
+}
+.head-container {
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 110px;
+    padding-bottom: 50px;
     clear: both;
 }
-
-.right-side {
-    text-align: right;
-    margin-left: 50px;
-}
-
-.image-box {
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid;
-    border-color: black;
-}
-
-.image {
-    margin: 75px 270px 75px 240px;
-}
-
-.image:hover {
-    transition: 0.5s;
-    transform: scale(1.3);
-
-}
-
-.text {
-    width: 815px;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 20px 40px;
-}
-
-.right-side {
-    display: inline-block;
-}
-
-.bottom-part {
-    background-color: #b5b8bb;
-}
-
-.bottom-menu {
-    list-style: none;
-    padding: 10px;
-    display: inline-block;
-
-}
-
-.bottom-menu-item {
-    font-size: 28px;
-    font-weight: 400;
-    display: inline-block;
-    color: #0c1927;
-}
-
-.bottom-menu-item:hover {
-    text-decoration: underline;
-}
-
-.bottom-menu-link:hover {
-    color: #3181a6;
-    text-decoration: underline;
-}
-
-.bottom-menu-link {
+.logo-link {
     text-decoration: none;
-    color: #0c1927;
-    padding: 10px 16px;
-    display: inline-block;
+    font-family: sans-serif;
+}
+.logo-link:hover .logo-text {
+    color:#f26522;
+}
+.logo-link:hover .image-logo {
+    content: url("../img/logo.png");
+}
+.image-logo {
+    float: left;
+    width: 50px;
+    margin-right: 20px;
+}
+.logo-text {
+    font-size: 31px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.logo-text-small{
+    float: left;
+    font-size: 20px;
+}
+.right-subtitle {
+    text-align: right;
+    float: right;
+    margin-top: 25px;
+    margin-right: 110px;
+}
+.container {
+    width: 1060px;
+    margin: 0 auto;
 }
 
-.coppyright {
-    font-size: 24px;
-    display: inline-block;
-    margin-left: 120px;
+.subtitle-item {
+    color: white;
+    font-size: 20px;
+}
+.tour-item {
+    margin-right: 69px;
+    margin-bottom: 70px;
+    color: white;
+    text-decoration: none;
+    float: left;
+    position: relative;
+}
+.tour-item:nth-child(3n) {
+    margin-right: 0;
+}
+.desc {
+    text-align: center;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
+.tour-item:hover .desc{
+    color:#f26522;
+    transition: 1s;
+}
+.hidden-section{
+    background-color: #f26522;
+    box-sizing: border-box;
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    bottom: 63px;
+    padding: 10px;
+    left: 0;
+}
+.tour-item:hover .hidden-section{
+    opacity: 1;
+    z-index: 1;
+    transition: 1s;
+}
+.widget-price {
+    font-size: 25px;
+    float: left;
+    color: white;
+}
+.widget-price-prefix {
+    font-size: 15px;
+    display: block;
+}
+.widget-details {
+    text-align: right;
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin: 12px 10px 0px 0px
+}
+.bottom {
+    text-align: center;
+    color: white;
+    clear: both;
+}
+.bottom-info {
+margin-bottom: 20px;
 }
