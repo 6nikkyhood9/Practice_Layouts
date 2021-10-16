@@ -2,155 +2,162 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HW5 partTwo</title>
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/css.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 </head>
 <body>
-<div class="border">
-<table>
-    <tr>
-        <th class="pricing-plan" rowspan="2">
-            <span class="sml-pricing-item">choose your</span>
-            <span class="big-pricing-item">pricing plane</span>
-        </th>
-        <td class="green">
-            <p>STANDARD</p>
+<div class="main-container">
+    <table>
+    <tr class="title">
+        <td class="pricing-plan">
+            <p class="smaller-text">choose your</p>
+            <p class="bigger-text">prising plane</p>
         </td>
-        <td class="red">
-            <p>ULTIMATE</p>
-        </td>
-        <td class="blue">
-            <p>PREMIUM</p>
-        </td>
-    </tr>
-    <tr>
-        <td class="price">
-            <div class="price-now">
-                <span class="dollars">$17</span>
-                <span class="cents">.99</span>
-                <span class="duration">PER MONTH</span>
-            </div>
-        </td>
-        <td class="price-ult">
-            <span class="dollars">$37</span>
-            <span class="cents-ult">.99</span>
-            <span class="duration">PER MONTH</span>
-        </td>
-        <td class="price-premium">
-            <div class="price-now">
-                <span class="dollars">$97</span>
-                <span class="cents-premium">.99</span>
-                <span class="duration">PER MONTH</span>
-            </div>
-        </td>
-    </tr>
-    <tr class="storage">
-        <td class="storage-item-inform">
+        <td class="storage">
             <i class="fas fa-archive"></i>
-            <span>STORAGE</span>
+            <p class="storage-text">storage</p>
         </td>
-        <td class="storage-item-inform">
-            <span>500 GB STORAGE</span>
-        </td>
-        <td class="storage-item-inform">
-            <span>1000 GB STORAGE</span>
-        </td>
-        <td class="storage-item-inform">
-            <span>2000 GB STORAGE</span>
-        </td>
-    </tr>
-    <tr class="bandwidth">
-        <td class="bandwidth-item-inform">
+        <td class="bandwidth">
             <i class="fas fa-cloud-upload-alt"></i>
-            <span>BANDWIDTH</span>
+            <p class="bandwidth-text">bandwidth</p>
         </td>
-        <td class="bandwidth-item-inform" colspan="2">
-            <span>LIMITED</span>
-        </td>
-        <td  class="bandwidth-item-inform">
-            <span>UNLIMITED</span>
-        </td>
-    </tr>
-    <tr class="email">
-        <td class="email-item">
+        <td class="email">
             <i class="fas fa-envelope"></i>
-            <span>EMAIL</span>
+            <p class="email-text">email</p>
         </td>
-        <td class="email-item">
-            <span>25 EMAILS</span>
-        </td>
-        <td class="email-item">
-            <span>45 EMAILS</span>
-        </td>
-        <td class="email-item">
-            <span>65 EMAILS</span>
-        </td>
-    </tr>
-    <tr class="support">
-        <td>
+        <td class="support">
             <i class="far fa-life-ring"></i>
-            <span>SUPPORT</span>
+            <p class="support-text">support</p>
         </td>
-        <td class="support-item" colspan="3">
-            <span>24/7 SUPPORT</span></td>
-    </tr>
-    <tr class="products">
-        <td class="products-item">
+        <td class="products">
             <i class="fas fa-cube"></i>
-        <span>PRODUCTS</span>
+            <p class="products-text">products</p>
         </td>
-        <td class="products-item">
-            <span>20 PRODUCTS</span>
-        </td>
-        <td class="products-item">
-            <span>30 PRODUCTS</span>
-        </td>
-        <td class="products-item">
-            <span>60 PRODUCTS</span>
-        </td>
-    </tr>
-    <tr class="users">
-        <td>
+        <td class="users">
             <i class="fas fa-users"></i>
-            <span>USERS</span>
-        </td>
-        <td class="users-item">
-            <span>1 USER</span>
-        </td>
-        <td class="users-item">
-            <span>10 USERS</span>
-        </td>
-        <td class="users-item">
-            <span>15 USERS</span>
+            <p class="users-text">users</p>
         </td>
     </tr>
-    <tr class="btn-wrapper">
-        <td>
-            <a class="btn-link-black" href="#">
-                <span class="btn-text">CONTACT US</span>
-            </a>
-        </td>
-        <td class="btn-item">
-            <a class="btn-link-green" href="#">
-                <span class="btn-text">BUY NOW</span>
-            </a>
-        </td>
-        <td class="btn-item">
-            <a class="btn-link-red" href="#">
-                <span class="btn-text">BUY NOW</span>
-            </a>
-        </td>
-        <td class="btn-item">
-            <a class="btn-link-blue" href="#">
-                <span class="btn-text">BUY NOW</span>
-            </a>
-        </td>
-    </tr>
-</table>
+        <tr class="standard">
+            <td class="green">
+                <p class="standard-big-text">standard</p>
+                <p class="standard-big-price">17
+                    <span class="standard-small-price">.99</span>
+                </p>
+                <p class="standard-small-text">per month</p>
+                <a class="btn-link-standard" href="#">
+                    <span class="btn-text">BUY NOW</span>
+                </a>
+            </td>
+            <td class="storage-500gb">
+                <p class="storage-500gb-text">500GB</p>
+                <p class="storage-500gb-text">STORAGE</p>
+            </td>
+            <td class="limited">
+                <p class="limited-text">LIMITED</p>
+                <p class="limited-text">BANDWIDTH</p>
+            </td>
+            <td class="num-email">
+                <p class="num-email-text">25</p>
+                <p num-email-text>EMAILS</p>
+            </td>
+            <td class="support-time">
+                <p class="support-time-text">24/7</p>
+                <p class="support-time-text">SUPPORT</p>
+            </td>
+            <td class="num-products">
+                <p class="num-products-text">20</p>
+                <p class="num-products-text">PRODUCTS</p>
+            </td>
+            <td class="num-users">
+                <p class="num-users-text">1</p>
+                <p class="num-users-text">USER</p>
+            </td>
+        </tr>
+        <tr class="ultimate">
+            <td class="red">
+                <p class="ultimate-big-text">standard</p>
+                <p class="ultimate-big-price">37
+                    <span class="ultimate-small-price">.99</span>
+                </p>
+                <p class="ultimate-small-text">per month</p>
+                <a class="btn-link-ultimate" href="#">
+                    <span class="btn-text">BUY NOW</span>
+                </a>
+            </td>
+            <td class="storage-ultimate storage-500gb">
+                <p class="num-storage-ultimate-text">
+                    1000GB
+                </p>
+                <p class="num-storage-ultimate-text">
+                    STORAGE
+                </p>
+            </td>
+            <td class="bandwidth-ult limited">
+                <p class="num-bandwidth-ult-text">LIMITED</p>
+                <p class="num-bandwidth-ult-text">BANDWIDTH</p>
+            </td>
+            <td class="email-ult num-email">
+                <p class="num-email-ult-text">45</p>
+                <p class="num-email-ult-text">EMAILS</p>
+            </td>
+            <td class="support-ult support-time">
+                <p class="num-support-ult-text">24/7</p>
+                <p class="num-support-ult-text">SUPPORT</p>
+            </td>
+            <td class="products-ult num-products">
+                <p class="num-products-ult-text">30</p>
+                <p class="num-products-ult-text">PRODUCTS</p>
+            </td>
+            <td class="user-ult num-users">
+                <p class="num-user-ult-text">10</p>
+                <p class="num-user-ult-text">USERS</p>
+            </td>
+        </tr>
+        <tr class="premium">
+            <td class="dark-green">
+                <p class="premium-big-text">standard</p>
+                <p class="premium-big-price">97
+                    <span class="premium-small-price">.99</span>
+                </p>
+                <p class="premium-small-text">per month</p>
+                <a class="btn-link-premium" href="#">
+                    <span class="btn-text">BUY NOW</span>
+                </a>
+            </td>
+            <td class="storage-premium storage-500gb">
+                <p class="num-storage-premium-text">
+                    2000GB
+                </p>
+                <p class="num-storage-premium-text">
+                    STORAGE
+                </p>
+            </td>
+            <td class="bandwidth-pre limited">
+                <p class="num-bandwidth-pre-text">UNLIMITED</p>
+                <p class="num-bandwidth-pre-text">BANDWIDTH</p>
+            </td>
+            <td class="email-pre num-email">
+                <p class="num-email-pre-text">65</p>
+                <p class="num-email-pre-text">EMAILS</p>
+            </td>
+            <td class="support-pre support-time">
+                <p class="num-support-pre-text">24/7</p>
+                <p class="num-support-pre-text">SUPPORT</p>
+            </td>
+            <td class="products-pre num-products">
+                <p class="num-products-pre-text">60</p>
+                <p class="num-products-pre-text">PRODUCTS</p>
+            </td>
+            <td class="user-pre num-users">
+                <p class="num-user-pre-text">15</p>
+                <p class="num-user-pre-text">USERS</p>
+            </td>
+        </tr>
+    </table>
 </div>
 </body>
 </html>
