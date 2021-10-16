@@ -1,54 +1,43 @@
 body{
-    font-family: Verdana, sans-serif;
-    background: url("../img/background.png") no-repeat;
-    background-size: cover;
-}
-main{
-    text-align: center;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-header {
+    font-family: sans-serif;
     width: 100%;
-    margin-top:10px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-.header-item{
-    color: white;
-    font-size: 16px;
-}
-.header-logo-block{
-    height: 45px;
-    padding: 0 10px;
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-}
-.header-logo-block:hover .logo-img{
-    filter:none;
-    transition: 1s;
-}
-.bigger-text{
-    font-size: 29px;
+    height: 100%;
     font-weight: 700;
-    text-decoration: none;
+    color: #ff6;
+    background-color: #000;
+    overflow: hidden;
 }
-.smaller-text {
-    font-size: 18px;
-    font-weight: 700;
+.title{
+    position: absolute;
+    width: 18em;
+    height: 50em;
+    bottom: 0;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: justify;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(25deg);
 }
-.header-logo-block:hover .logo-text-container{
-    color:#f26522;
-    transition: 1s;
+.title:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60%;
+    pointer-events: none;
 }
-.logo-img{
-    filter: brightness(0) invert(1);
+.title-content{
+    position: absolute;
+    top: 100%;
+    animation: scroll 30s linear 4s infinite;
 }
-.logo-text-container{
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 0 10px;
-    color: #fff;
+@keyframes scroll {
+    0% { top: 100%;
+    }
+100% { top: -170%;
+}
 }
